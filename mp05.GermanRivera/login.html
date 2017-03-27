@@ -1,0 +1,42 @@
+<!--
+    File: login.html
+    Author: German Eduardo Rivera
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>National Park Service</title>
+  <link rel="stylesheet" type="" href="styles/site.css">
+</head>
+
+<body>
+
+<!--header section-->
+<header >
+        <ul>
+            <li>
+                <img src="images/acorn-logo.svg" alt="website logo">
+                <h1>National Park Service</h1>
+            </li>
+        </ul>
+
+    </header>
+<!--main content-->
+  <main>
+      <form id="login" method="POST" action="dashboard.html" onsubmit="return validateForm()">
+        <label for="username">username:</label><br>
+        <input type="text" name="username" id="username" placeholder="username"><br>
+
+        <label for="password">password: </label><br>
+        <input type="text" name="password" id="password" placeholder="password"></input><br>
+        
+        <a href="">Forgot you password?</a><br>
+        <input type="submit" id="submit" value="Submit"></a>
+    </form>
+
+  </main>
+  <script src="/js/login.js"></script>
+</body>
+
+</html>
